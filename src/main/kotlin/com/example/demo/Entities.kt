@@ -173,7 +173,7 @@ data class Product(
     @LastModifiedDate
     @Column("last_modified_date")
     val lastModifiedDate: LocalDateTime? = null,
-)
+    )
 
 @Table("Order_Item")
 data class OrderItem(
