@@ -7,3 +7,8 @@ createdb salesfarce &&
 ./gradlew build &&
 ./gradlew bootRun
 ```
+
+Note:
+
+Nested Entities for use in aggregates (e.g. Order/OrderItem) are not supported with r2dbc - "spring-data-r2dbc/issues/288"
+
